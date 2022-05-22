@@ -1,0 +1,97 @@
+@import "footer.css";
+@import "blog_post.css";
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin: 3rem 3rem 0 3rem;
+}
+
+.blog-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.blog-header-subscribe,
+.fa-magnifying-glass {
+  /* padding-left: 10px; */
+  color: #949494;
+  cursor: pointer;
+}
+
+.blog-header-link {
+  font-size: 2em;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Blog Post Card */
+.card-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 0.5rem solid #ececec;
+  width: 50rem;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.card:hover {
+  border: 0.1rem solid #ececec;
+}
+
+.card-title {
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.card-title-blue {
+  color: #4285f4;
+}
+
+.card-title-green {
+  color: green;
+}
+
+.card-header {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-date {
+  color: #949494;
+}
+
+.card-link {
+  color: #6eadfa;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  margin: 10px 0 50px 0;
+}

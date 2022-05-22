@@ -1,0 +1,77 @@
+.blog-post-container {
+  display: flex;
+}
+
+/* Article */
+.blog-post-article {
+  flex: 2;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-post-article p {
+  margin: 20px 0;
+}
+
+.blog-post-date {
+  font-size: 1.2rem;
+  color: #888;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.blog-post-link {
+  color: #6eadfa;
+}
+
+.blog-post-para {
+  line-height: 2rem;
+}
+
+.blog-para-outline {
+  border: 2px solid #ececec;
+  padding: 10px;
+}
+
+.blog-button {
+  border-radius: 30px;
+  padding: 5px 10px;
+  margin: 20px 0 40px 0;
+  background-color: #fff;
+  color: #ececec;
+  border: 2px solid #ececec;
+  cursor: pointer;
+}
+
+.blog-button-avtive {
+  background-color: #fff;
+  color: #6eadfa;
+  border: 2px solid #6eadfa;
+}
+
+/* Aside */
+.blog-post-aside {
+  flex: 1;
+}
+
+.aside-links-header {
+  font-style: italic;
+  font-family: serif;
+  margin-bottom: 5px;
+}
+
+.aside-link {
+  display: block;
+  color: #6eadfa;
+  padding-bottom: 5px;
+}
+
+.aside-about-container {
+  background-color: #ececec;
+  padding: 10px 15px;
+}
+
+.aside-archives-container,
+.aside-elsewhere-container {
+  padding: 15px 15px;
+}
